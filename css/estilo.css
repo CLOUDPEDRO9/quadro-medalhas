@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+
+h1{
+    color: blue;
+    font-family: "Matemasie", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+img{
+    width: 25px; /*largura da imagem*/
+    height: 25px; /* altura da imagem*/
+}
+.medalhas{
+    width: 50px; /*largura da imagem*/
+    height: 50px; /* altura da imagem*/
+}
+
+td{
+    text-align: center;
+}
+
+.pais {
+    color: rgb(5, 77, 42);
+    text-align: left;
+    width: 200px;
+}
+
+td{
+    width: 30px;
+}
+
+td:nth-child(1){
+    width: 15px;
+}
+
+td:nth-child(3){
+    width: 200px;
+}
+
+td img:hover{
+    transform: scale(3);
+}
+
+tr:hover{
+    background-color: blue;
+}
